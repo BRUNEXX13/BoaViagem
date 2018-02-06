@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hotel Boa Viagem</title>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./resources/estilos/bootstrap.css">
+
+<link rel="stylesheet" href="./resources/estilos/style.css">
+
+
+<link href="./resources/estilos/estilos.css" rel="stylesheet"
+	type="text/css" />
+<link href="./resources/estilos/chocolat.css" rel="stylesheet"
+	type="text/css" />
+
+
+
+<link href="./resources/estilos/flexslider.css" rel="stylesheet" type="text/css" />
+
+<link href="./resources/estilos/font-awesome.css" rel="stylesheet" type="text/css" />
+
+<link href="./resources/estilos/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<link href="./esources/estilos/swipebox.css" rel="stylesheet" type="text/css" />
+
+<link href="./resources/estilos/easy-responsive-tabs.css" rel="stylesheet" type="text/css" />
+	
+	<link href="./resources/estilos/inputmask.css" rel="stylesheet" type="text/css" />
+	
+	
+	
+
+<script src="./resources/js/meujs.js"></script>
+
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+
+<script src="./resources/js/inputmask.js"></script>
+
+
+
+
+<link rel="stylesheet"
+	href="./resources/fonts/glyphicons-halflings-regular.eot">
+
+
+
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+<script>
+  $( function() {
+    $( "#datepicker1" ).datepicker();
+  } );
+  </script>
+
+
+
+</head>
+
+<body>
+
+	<div class="panel panel-default">
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="./pages/index.html">Home</a></li>
+			<li role="presentation" class="active"><a href="./pages/reserva.html">Reservas</a></li>
+			<li role="presentation" class="active"><a href="./pages/reserva.html"">Quartos</a></li>
+			<li role="presentation" class="active"><a href="./pages/reserva.html">Sobre</a></li>
+		</ul>
+
+	</div>
+
+	<h2 class="hbv">HOTEL BOA VIAGEM</h2>
+
+	<div class="imgsc" style="max-width: auto">
+		<img class="mySlides" src="./resources/imgs/1.jpg" style="width: 100%">
+		<img class="mySlides" src="resources/imgs/2.jpg" style="width: 100%">
+		<img class="mySlides" src="resources/imgs/3.jpg" style="width: 100%">
+	</div>
+
+	<div id="availability-agileits">
+		<div class="col-md-3 book-form-left-w3layouts">
+			<h2>Faça sua Reserva</h2>
+		</div>
+		
+		<div class="col-md-9 book-form">
+			<form action="#" method="post">
+				<div class="fields-w3ls form-left-agileits-w3layouts ">
+					<p>Tipo de Quarto</p>
+					<select class="form-control">
+						<option>Selecione um Quarto</option>
+						<option>Single R$100,00</option>
+						<option>Double R$200,00</option>
+						<option>Suíte Luxo R$430,00</option>
+						<option>Suíte Presidencial R$750,00</option>
+
+					</select>
+					
+					
+					
+				</div>
+				<div class="fields-w3ls form-date-w3-agileits">
+					<p>Data Entrada</p>
+					<input type="text" id="datepicker" name="Text" type="text"
+						value="Select Date" onfocus="this.value = '';"
+						onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+						required="">
+				</div>
+
+				<div class="fields-w3ls form-date-w3-agileits">
+					<p>Data Saída</p>
+					<input type="text" id="datepicker1" name="Text" type="text"
+						value="Select Date" onfocus="this.value = '';"
+						onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+						required="">
+				</div>
+
+				<div class="fields-w3ls form-date-w3-agileits">
+					<p>Hóspedes</p>
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+				
+						<div class="fields-w3ls form-date-w3-agileits">
+					<p>Quartos</p>
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select>
+				</div>
+
+
+
+
+				<div class=" form-left-agileits-submit">
+					<input value="Reserva" type="submit" onclick="funcao1()" value="Exibir Alert">
+				</div>
+			</form>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+
+
+
+
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="agileits_banner_bottom">
+				<h3>
+					<span>Experiência de uma boa estadia, aproveite nossas
+						ofertas</span>Entre em contato com nossa recepção.
+				</h3>
+			</div>
+			<div class="w3ls_banner_bottom_grids">
+				<ul class="cbp-ig-grid">
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_road"></span>
+							<h4 class="cbp-ig-title">QUARTOS LUXO</h4>
+							<span class="cbp-ig-category">Resort Inn</span>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_cube"></span>
+							<h4 class="cbp-ig-title">VISTA PARA O MAR</h4>
+							<span class="cbp-ig-category">Resort Inn</span>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_users"></span>
+							<h4 class="cbp-ig-title">CAFÉ DA MANHA</h4>
+							<span class="cbp-ig-category">Resort Inn</span>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_ticket"></span>
+							<h4 class="cbp-ig-title">WI FI LIVRE</h4>
+							<span class="cbp-ig-category">Resort Inn</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<h2 id=reserva>Faça seu Cadastro</h2>
+	<div class="container">
+
+		<form class="well form-horizontal" action=" " method="post"
+			id="contact_form">
+			<fieldset>
+
+				<!-- Form Name -->
+				<legend id="cadastro">Preencha seus dados</legend>
+
+				<!-- Text input-->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Nome</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span><input name="first_name" 
+								onfocus="validacampo(this)"
+								placeholder="Nome" class="form-control name" type="text" maxlength="20" >
+						</div>
+					</div>
+				</div>
+
+				<!-- Text input-->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Sobrenome</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span> <input name="last_name"
+								placeholder="Sobrenome" class="form-control" type="text">
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label class="col-md-4 control-label">Data Nascimento</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span><input type="text"  
+								 class="form-control date" >
+						</div>
+					</div>
+				</div>
+
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Cpf</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span> <input name="cpf"
+								placeholder="999.999.999-99" class="form-control cpf" type="text">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Rg</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span> <input name="rg"
+								placeholder="99.999.999-9" class="form-control rg" type="text">
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Text input-->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Tel - Comercial</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-earphone"></i></span> <input name="phone1"
+								placeholder="(11)99999-9999" class="form-control phone1" type="text">
+						</div>
+					</div>
+				</div>
+				
+					<div class="form-group">
+					<label class="col-md-4 control-label">Tel - Residencial</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-earphone"></i></span> <input name="phone1"
+								placeholder="(11)99999-9999" class="form-control phone1" type="text">
+						</div>
+					</div>
+				</div>
+				
+			
+				
+					<div class="form-group">
+					<label class="col-md-4 control-label">Celular</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-earphone"></i></span> <input name="phone"
+								placeholder="(11)99999-9999" class="form-control phone" type="text">
+						</div>
+					</div>
+				</div>
+
+				<!-- Text input-->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Endereço</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-home"></i></span> <input name="address"
+								placeholder="Endereço" class="form-control" type="text">
+						</div>
+					</div>
+				</div>
+
+					<div class="form-group">
+					<label class="col-md-4 control-label">Número</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-home"></i></span> <input name="address"
+								placeholder="Nº" class="form-control n" type="text">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Complemento</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-home"></i></span> <input name="address"
+								placeholder="nº apartmento - casa" class="form-control"
+								type="text">
+						</div>
+					</div>
+				</div>
+
+				<!-- Text input-->
+
+
+
+				<!-- Select Basic -->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Estado</label>
+					<div class="col-md-4 selectContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-list"></i></span> <select name="state"
+								class="form-control selectpicker">
+								<option value=" ">Selecione seu Estado</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+						</div>
+					</div>
+				</div>
+						
+							<div class="form-group">
+					<label class="col-md-4 control-label">Cidade</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-home"></i></span> <input name="city"
+								placeholder="São-Paulo" class="form-control" type="text">
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Text input-->
+
+				<div class="form-group">
+					<label class="col-md-4 control-label">Cep</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-home"></i></span> <input name="cep"
+								placeholder="04550-003" class="form-control cep" type="text">
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Text input-->
+				<div class="form-group">
+					<label class="col-md-4 control-label">E-Mail</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-envelope"></i></span> <input name="email"
+								placeholder="seuemail@seumail.com" class="form-control email" type="text" >
+						</div>
+					</div>
+				</div>
+
+	<div class="form-group">
+					<label class="col-md-4 control-label">Senha</label>
+					<div class="col-md-4 inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-envelope"></i></span> <input name="password"
+								placeholder="*****" class="form-control password" type="text" >
+						</div>
+					</div>
+				</div>
+	
+
+
+
+
+
+				<!-- Success message -->
+				<div class="alert alert-success" role="alert" id="success_message">
+					Enviar <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for
+					contacting us, we will get back to you shortly.
+				</div>
+
+				<!-- Button -->
+				<div class="form-group">
+					<label class="col-md-4 control-label"></label>
+					<div class="col-md-4">
+						<button type="submit" class="btn btn-warning">
+							Enviar <span class="glyphicon glyphicon-send"></span>
+						</button>
+					</div>
+				</div>
+
+
+			</fieldset>
+		</form>
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="./resources/js/carousel.js"></script>
+	<script type="text/javascript" src="./resources/js/jquery.mask.js"></script>
+		
+	<script>
+	$(document).ready(function(){
+		  $('.date').mask('99/99/9999')
+		  $('.time').mask('00:00:00');
+		  $('.cpf').mask('999.999.999-99');
+		  $('.rg').mask('99.999.999-9');
+		  $('.date_time').mask('99/99/9999 00:00:00');
+		  $('.cep').mask('99999-999');
+		  $('.phone').mask('11-99999-9999');
+		  $('.phone1').mask('11-9999-9999');
+		  $('.password').mask('')
+			
+	
+		});
+	</script>
+	
+	
+
+
+
+
+</body>
+</html>

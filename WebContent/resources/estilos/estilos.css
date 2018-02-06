@@ -1,0 +1,119 @@
+body{
+	
+background: #304352!important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352)!important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	
+}
+
+.mySlides 
+{
+	display:block;
+
+}
+.hbv
+{
+	
+	 color: #ffce14;
+    font-size: 2em;
+    line-height: 1.8em;
+    letter-spacing: 11px;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.nav nav-tabs 
+{
+	
+	border-bottom: 121px solid #ddd; 
+	display: block;
+	margin-left: 500px;
+	margin-right: auto;
+	text-align: center
+	
+}
+
+
+
+
+#reserva
+{
+	color: #ffce14;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 11px;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+ 	text-align: center;
+ 	font-weight: bold;
+	
+	
+}
+
+
+.banner-bottom h3 span {
+    display: block;
+    font-size: 25px!important;
+    color: #000000;
+    font-weight: 500;
+
+}
+
+.header-w3layouts{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+.agileits{
+	
+	
+}
+
+.agileits-banner-info h4 {
+    font-size: 4em;
+    color: #ffce14;
+    letter-spacing: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.agileits-banner-info h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.agileits-banner-info h3 span {
+    background: rgba(0, 0, 0, 0.68);
+    padding: 0 36px;
+}
+.agileits-banner-info {
+    text-align: center;
+    padding: 7em 2em;
+    margin-top: 8em;
+}
+.agileits-banner-info p {
+    color: #ffce14;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 11px;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+#success_message
+{ display: none;}
